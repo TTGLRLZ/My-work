@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-size:16px;
+    font-family: Roboto;
+    font-weight: 400;   
+    color: #0f141e;
+    background-color: #8893ab;
+}
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+li, ol {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color:rgb(212, 206, 94);
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display:flex;
+    margin-top: 50px;
+}
+.info {
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.hobb {
+    height: 140px;
+    width: 100%;
+    background: rgb(76, 163, 143);
+    border: 2px solid rgb(96, 140, 100);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.hobb h1 {
+    padding: 15px;
+}
+.hobb ol {
+    padding-left: 35px;
+}
+.imgs {
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+    background:black;
+    color:white;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover {
+    background: white;
+    color:black;
+    transition: all 0.3s;
+}
+.btn:active {
+    background: rgb(175, 238, 29);
+}
+.connect {
+    text-align: center;
+
+}
+.btn2 {
+    text-decoration: none;
+    color:aqua; 
+}
+.btn2:hover {
+    color: rgb(93, 23, 169);
+    transition: all 0.4s;
+}
+.expjob {
+    height: 180px;
+    width: 100%;
+    background: rgb(76, 163, 143);
+    border: 2px solid rgb(96, 140, 100);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.expjob h1 {
+    padding-left: 25px;
+    padding: 15px;
+}
+.expjob th {
+    padding-left: 20px;
+}
+.expjob tr td  {
+    padding-left: 25px;
+    text-align: center;
+
+}
+.conmeform {
+    height: 100%;
+    width: 100%;
+    background: rgb(76, 163, 143);
+    border: 2px solid rgb(96, 140, 100);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.formwrap {
+    margin-bottom: 15px;
+    display: flex;
+}
+.formwrap .formgroup {
+    display: inline-block;
+    margin-right: 20px;
+    width: 50%;
+    padding-left: 15px;
+}
+.conmeform h1 {
+    padding-left: 25px;
+    padding: 15px;
+}
+.formgroup label {
+    display: block;
+    font-size: 15px;
+}
+.formgroup input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background:transparent;
+    border-bottom: 1px solid rgb(81, 122, 85);
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.formgroup {
+    padding-left: 15px;
+}
+.formgroup textarea {
+    height: 80px;
+}
+@media (max-width: 650px) {
+    .header {
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+        display: block;
+    }
+}
